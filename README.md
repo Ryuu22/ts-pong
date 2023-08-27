@@ -1,1 +1,1 @@
-# ts-pong
+# ts-snake

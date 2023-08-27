@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Snake!</title>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <!--Import css-->
+    <link
+      rel="stylesheet"
+      href="styles.css"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <p>Current Parts <span id="parts-count"></span></p>
+  </body>
+  <script src="./dist/structures.js"></script>
+  <script src="./dist/grid.js"></script>
+  <script src="./dist/snake.js"></script>
+  <script src="./dist/renderer.js"></script>
+  <script src="./dist/game_manager.js"></script>
+</html>
